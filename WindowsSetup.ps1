@@ -28,6 +28,22 @@ winget install Notepad++.Notepad++
 winget install Microsoft.VisualStudioCode
 winget install Microsoft.VisualStudio.2022.Community
 
+# VS Code Extensions
+code --install-extensions ms-python.python --force
+code --install-extensions ms-vscode.cpptools --force
+code --install-extensions ms-dotnettools.csharp --force
+
+code --install-extensions dart-code.flutter --force
+code --install-extension ms-dotnettools.vscode-dotnet-runtime --force
+
+code --install-extension ms-vscode.vscode-node-azure-pack --force
+code --install-extensions ms-vsliveshare.vsliveshare --force
+
+code --install-extensions esbenp.prettier-vscode --force
+
+code --install-extensions ms-vscode-remote.remote-wsl
+code --install-extensions ms-vscode-remote.remote-containers
+
 # Databases
 winget install Azure Data Studio
 winget install Microsoft.AzureCosmosEmulator
