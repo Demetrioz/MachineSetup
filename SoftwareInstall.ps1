@@ -40,4 +40,4 @@ winget install OBSProject.OBSStudio --silent
 winget install Adobe.Acrobat.Reader.64-bit --silent
 winget install Discord.Discord --silent
 winget install JGraph.Draw --silent
-
+winget install NickeManarin.ScreenToGif --silent
